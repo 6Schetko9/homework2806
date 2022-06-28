@@ -54,17 +54,98 @@ int S= 2*(a*b+b*c+c*a);
         */
 
 
-   //Begin8
+        //Begin8
         /*int a=3;
     int b=4;
         int d=2;
     double c = (a+b)/d;
            System.out.println("вывод" +c);
            */
-// Begin a
-        int a>=0;
-        int b>=0;
-        int c=a+b;
-        System.out.println("сумма"+ c);
+// Begin9 Даны два неотрицательных числа a и b. Найти их среднее геометрическое, то есть квадратный корень из их произведения:
+//√a·b.
+       /* double a= 3.45;
+        double b = 7.2;
+        double g_avg = Math.sqrt (a*b);
+        System.out.println(g_avg);
+
+
+
+*/
+        //Begin 10 Даны два ненулевых числа. Найти сумму, разность, произведение и
+        //частное их квадратов.
+       /* int a=25;
+        int b=45;
+        int s=(a*a)+(b*b);
+        int r= (a*a)-(b*b);
+        int p= (a*a)*(b*b);
+        double o= (a*a)/(double)(b*b);
+        System.out.println("сумма"+s);
+        System.out.println("разность"+r);
+        System.out.println("произведение"+p);
+        System.out.println("частное"+o);
+               */
+        /*int a=-5;
+        int b=24;
+        int s=(a+b);
+        int r= a-b;
+        int p= a*b;
+        double o= a/(double)b;
+        System.out.println(Math.abs(s));
+        System.out.println(Math.abs(r));
+        System.out.println(Math.abs(p));
+        System.out.println(Math.abs(o));
+        */
+        /*int a=-5;
+        int b=24;
+        a =Math.abs(a);
+        b =Math.abs(b);
+        double s=(a+b);
+        System.out.println(Math.abs(s));
+        s= a-b;
+        System.out.println(Math.abs(s));
+       s= a*b;
+        System.out.println("умн" + Math.abs(s));
+        s= a/(double)b;
+        System.out.println("деление" + Math.abs(s));
+        */
+        //Begin22. Поменять местами содержимое переменных A и B и вывести новые
+       // значения A и B.
+       /* int a=3;
+        int b=10;
+        int c = a;
+         a = b;
+        b = c;
+        System.out.println("a="+ a +"b="+b);
+*/
+        // Begin12. Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P:
+       // c =√ a^2 + b^2, P = a + b + c
+       /* double a = 4;
+        double b = 7;
+        double g_avg = Math.sqrt (a*a)+(b+b);
+        double c= g_avg;
+        double P = a+ b + c;
+        System.out.println(c);
+        System.out.println(P);
+
+        */
+
+       //Begin13◦
+        //. Даны два круга с общим центром и радиусами R1 и R2 (R1 > R2).
+        //Найти площади этих кругов S1 и S2, а также площадь S3 кольца, внешний
+        //радиус которого равен R1, а внутренний радиус равен R2:
+        //S1 = π·(R1)
+        //2
+        //, S2 = π·(R2)
+        //2
+        //, S3 = S1 − S2.
+        double R1=10;
+        double R2=5;
+        final double pi = 3.14;
+        double s1=pi *R1;
+        double s2=pi *R2;
+        System.out.println(s1);
+        System.out.println(s2);
+        double s3=s1-s2;
+        System.out.println(s3);
+        }
     }
-}
